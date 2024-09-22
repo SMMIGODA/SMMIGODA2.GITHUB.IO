@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script scr="app.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+        rel="stylesheet">
+        <meta charset=" UTF-8">
+        <meta name="viewport" content=" width=device-width, initial-scale=1.0">
+        <title> Sumaiya's Easy Recipe Book</title>
+    </head>
+    <body>
+        <header id="main header">
+              <h1 id="logo"> Lasagne Recipe</h1>
+              <nav>
+                <ul id="nav-ul">
+                    <li><a href="" class="navbutton">Home</a></li>
+                    <li><a href="" class="navbutton">About Us</a></li>
+                    <li><a href="" class="navbutton">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <aside>
+            <section>
+                <h4>Recipes by Category</h4>
+                <nav>
+                    <ul id="nav-ul">
+                        <li><a href="">20 minutes meals</a></li>
+                        <li><a href="">Breakfast ideas</a></li>
+                        <li><a href="">Lunch ideas</a></li>
+                        <li><a href="">Dinner ideas</a></li>
+                        <li><a href="">Baking recipes</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </aside>
+        <p>
+            Hello and welcome to my first-ever lasagne recipe, which is so delicious and easy to make for you and for your family/guests to enjoy on a lovely sunny afternoon. So, let's get started! 
+        </p>
+        <blockquote></blockquote>
+
+</header>
+
+<main>
+    <section class=" Ingredients">
+        <h2> Ingredients for the Bolognese Sauce</h2>
+        
+        <li> 500g Bolognese sauce/ but you can use tomato paste if you want</li>
+        <li> 2 tablespoon olive oil</li>
+        <li> 400g mince meat</li>
+        <li> 1 medium-sized onion</li>
+        <li> 2 teaspoons mixed herbs</li>
+        <li> 2 teaspoon salt/ salt to taste</li>
+        <li> 1/4 teaspoon chili powder</li>
+        <li> 1 teaspoon white pepper- for flavour</li>
+        <li> 1 teaspoon chili flakes/ optional</li>
+        <li> 1 tablespoon garlic and ginger paste/ adjust to likings</li>
+        <li> 2 tablespoon tomato puree</li>
+        <li> 1 carrot ( grate the carrot to remove meaty smell)</li>
+        <li> 1 1/2 cup water</li>
+
+        <li> A medium sized tray or pot</li>
+    </ul>
+</section>
+
+</main>
+
+<section class=" White sauce for the lasagne">
+<h2> White sauce for the lasagne</h2>
+<ul>
+    <li>1 tablespoon butter</li>
+    <li>1 tablespoon plain flour</li>
+    <li>2 cups milk</li>
+    <li>1/2 teaspoon salt/salt to taste</li>
+    <li>1/2 teaspoon black pepper </li>
+    <li>1/2 teaspoon garlic granules</li>
+    <li>1/2 teaspoon onion granules</li>
+    <li>1 cup cheddar cheese</li>
+
+    <li> 20 lasagne sheets</li>
+    <li>700g mozzarella cheese</li>
+    <li>Parsely for garnish</li>
+</ul>
+</section>
+
+</main>
+        <main>
+            <section class="recipe-container">
+                <!-- Instructions box on the left -->
+                <div class="instructions-box">
+                    <h2>Instructions</h2>
+                    <ul>
+                        <li>Preheat oven to 375°F (190°C).</li>
+                        <li>Cook the lasagne sheets according to package instructions (usually for about 5 mins, keep stirring to avoid them sticking together). Drain and set aside.</li>
+                        <li>In a large pot, heat olive oil over medium heat. Add ground beef, onion, ginger, and garlic paste. Cook until beef is browned and onion is translucent.</li>
+                        <li>Add salt, chili powder, pepper, mixed herbs, carrot, Bolognese sauce, tomato puree, and water. Mix well and cook for about 30 minutes on medium heat.</li>
+                        <li>While the mixture is cooking, prepare the white sauce: melt butter, add flour, stir carefully, then gradually add milk, salt, pepper, onion, and garlic granules. Finally, add cheese and cook for about 5 minutes.</li>
+                        <li>Layer lasagne sheets on the tray, followed by Bolognese sauce, white sauce, and cheese.</li>
+                        <li>Repeat the layers and finish with a layer of mozzarella cheese on top.</li>
+                        <li>Cover with foil and bake for 25 minutes. Remove foil and bake for another 20 minutes until the cheese is golden and bubbly.</li>
+                        <li>Let cool for 10 minutes before serving.</li>
+
+                        <p>
+                            And there you go! A delicious Lasagne ready for you and your family, Enjoy!
+                        </p>
+                    </ul>
+                </div>
+
+                <ul>
+                    <li>
+                        <!-- Lasagne image on the right -->
+                <div class="lasagne-image">
+                    <img src="lasagne.jpg" alt=" Lasagne" class=" main-dish-img"
+                    <img src="image/lasagne.jpg" alt=" Lasagne" class="main-dish-img" 
+                </li>
+                </ul>
+            </section>
+
+            <section class="signup-form">
+                <h2>Newsletter Signup</h2>
+                <form action="/submit" method="POST" class="form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="preferences">Recipe Preferences:</label>
+                        <select id="preferences" name="preferences">
+                            <option value="vegetarian">Vegetarian</option>
+                            <option value="vegan">Vegan</option>
+                            <option value="meat-lover">Meat Lover</option>
+                            <option value="desserts">Desserts</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" name="save-recipes" value="yes">
+                            Save my favourite recipes
+                        </label>
+                    </div>
+                    <button type="submit">Sign Up</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <h2> Sumaiya's Easy Recipes</h2>
+            <section>
+                <nav>
+                    <ul id=" footer-ul">
+
+                        <div>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Terms and Conditions</a></li>
+                            <li><a href="">Cookie Policy</a></li>
+                        </div>
+                    </ul>
+                </nav>
+            </section>
+
+        </footer>
+    </body>
+
+    <footer>
+        <p>&copy; Sumaiya's Easy Recipe Book</p>
+    </footer>
+
+</html>

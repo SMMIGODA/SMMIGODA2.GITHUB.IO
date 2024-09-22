@@ -1,0 +1,198 @@
+
+/* Apply a Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f5;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #ff7043;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#nav-ul{
+    display:flex;
+}
+
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+}
+
+.navbutton{
+    color: white;
+    text-decoration:none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius:10px;
+}
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Section titles */
+h2 {
+    color: #ff7043;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    border-bottom: 2px solid #ff7043;
+    padding-bottom: 10px;
+}
+
+/* Ingredient list */
+ul {
+    list-style-type: disc;
+    margin: 10px 0 20px 20px;
+    line-height: 1.6;
+}
+
+/* Instruction list */
+ul {
+    list-style-type: disc;
+    margin: 10px 0 20px 20px;
+    line-height: 1.6;
+}
+
+/* Form Styling */
+.signup-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ff7043;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+}
+
+input, select {
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #ff7043;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e8642c;
+}
+
+/* Responsive Form */
+@media (max-width: 768px) {
+    .signup-form {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+
+/* Footer Styling */
+footer {
+    background-color: #ff7043;
+    color: white;
+    text-align: center;
+    padding: 4px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.8rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/* Make the page responsive */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    main {
+        margin: 20px;
+        padding: 15px;
+    }
+}
+
+
+
+/* Ingredient images */
+.ingredient-img {
+    width: 18px; /* Smaller size for ingredient images */
+    height: 18px; /* Keeps them square */
+    object-fit: scale-down;
+    border-radius: 30%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Aligning list items properly */
+ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
